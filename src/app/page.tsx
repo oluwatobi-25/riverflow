@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AppwritePing from "./appwrite-ping";
 
 export default function Home() {
   return (
@@ -63,6 +64,7 @@ export default function Home() {
             Documentation
           </a>
         </div>
+        <AppwritePing />
       </main>
     </div>
   );
